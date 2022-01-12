@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head><title>Tic Tac Toe</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body onload="loadGame();">
+		<div id = "message" class="message">
+			<h1 id="gameMessage">Tic Tac Toe</h1><h2 style="color:white">(scroll down and enter player names to begin)</h2>
+		</div>
+		<div class="display" id="display">
+			<div id="scorePlayer1"></div>			
+			<div id="gameBoard" style="padding-top: 0px;"></div>
+			<div id="scorePlayer2"></div>
+		</div>	
+		<div class="code">
+			<div id="button" class="button">
+				<input id="player1" type="text" placeholder="Enter Player 1">
+				<input id="player2" type="text" placeholder="Enter Player 2">
+				<input id="submit" type="button" class="show" onclick="startGame();" value="Play">
+				<input id="playAgain" type="button" class="hide" onclick="loadGame();" value="Play Again">
+			</div>
+			<p><a href="js/script.js">Tic Tac Toe Code</a></p>
+		</div>
+	</body>
+</html>
